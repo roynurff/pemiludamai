@@ -255,7 +255,7 @@
         <div>
           <h3 class="fs-3 text-body-emphasis">Pengambilan Suara (Pencoblosan Online)</h3>
           
-          <a href="#" class="btn btn-danger">
+          <a href="pemilihan/login" class="btn btn-danger">
             Masuk Dengan Login
           </a>
         </div>

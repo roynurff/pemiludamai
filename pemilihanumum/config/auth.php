@@ -34,11 +34,16 @@ return [
     | Supported: "session"
     |
     */
-
+    
     'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
+        ],
+    
+        'pemilih' => [
+            'driver' => 'session',
+            'provider' => 'pemilih',
         ],
     ],
 
@@ -64,11 +69,11 @@ return [
             'driver' => 'eloquent',
             'model' => App\Models\User::class,
         ],
-
-        // 'users' => [
-        //     'driver' => 'database',
-        //     'table' => 'users',
-        // ],
+    
+        'pemilih' => [
+            'driver' => 'eloquent',
+            'model' => App\Models\Pemilih::class,
+        ],
     ],
 
     /*
