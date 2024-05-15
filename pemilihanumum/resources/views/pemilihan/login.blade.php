@@ -109,7 +109,7 @@
         <div class="modal-content rounded-4 shadow">
           <div class="modal-header p-5 pb-4 border-bottom-0">
           <img src="../assets/KPULogo.png" class="bi me-2" width="100" height="102" role="img" aria-label="Bootstrap">
-            <h1 class="fw-bold mb-5 fs-2">Masuk Akun Pemilih Pemilihan Umum</h1>
+            <h1 class="fw-bold fs-2">Masuk Akun Pemilih Pemilihan Umum</h1>
           </div>
 
           <div class="modal-body p-5 pt-0">

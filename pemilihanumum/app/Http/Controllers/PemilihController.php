@@ -54,4 +54,11 @@ class PemilihController extends Controller
             return back()->with('error', 'NIK atau password salah');
         }
     }
+
+    public function logout()
+    {
+        Auth::guard('pemilih')::logout();
+
+        return redirect()->route('/pemilihan/login');
+    }
 }

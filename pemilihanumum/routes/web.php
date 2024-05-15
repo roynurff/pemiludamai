@@ -45,6 +45,9 @@ Route::get('pemilihan/register', function () {
 Route::get('pemilihan/home', function () {
     return view('pemilihan/home');
 });
+Route::get('pemilihan/logout', function () {
+    return view('pemilihan/login');
+})->name('logoutpemilih');
 
 Route::post('pemilihan/register', [PemilihController::class, 'register']);
 Route::post('pemilihan/login', [PemilihController::class, 'login']);
